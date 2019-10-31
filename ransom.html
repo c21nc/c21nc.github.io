@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ransom</title>
+	<style type="text/css">
+		span {
+			font-size: 40px;
+		}
+		span.secret:hover {
+			color: blue;
+      font-size: 100px;
+		}
+	</style>
+
+	<script type="text/javascript">
+		function check() {
+			el = document.getElementsByTagName('input');
+			if(el[0].value == "piglet") {
+				alert("you got it!");
+			} else {
+				alert("nope");
+			}
+		}
+	</script>
+</head>
+<body>
+  <span>H</span>
+  <span>A</span>
+  <span>L</span>
+  <span class="secret">E</span>
+  <span>Y</span>
+  <span>E</span>
+  <span class="secret">V</span>
+  <span>R</span>
+  <span>T</span>
+  <span>H</span>
+  <span>D</span>
+  <span>T</span>
+  <span>M</span>
+  <span>E</span>	
+  <span class="secret">E</span>
+  <span>T</span>
+  <span>R</span>
+  <span class="secret">R</span>
+  <span>G</span>
+  <span>T</span>
+  <span>!</span>
+  <span>Q</span>
+  <span class="secret">Y</span>
+  <span>!</span>
+  <span>M</span>
+  <span class="secret">3</span>
+  <span>!</span>
+
+  <br>
+  <hr>
+  <label>mappginugablemesit!! - What's the secret message</label>
+  <input type="text" name="answer">
+  <button onclick="check()">yes?</button >
+</body>
+</html>
